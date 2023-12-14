@@ -1,9 +1,11 @@
 body {
-    background-color: #1F2937;
+    padding: 0;
+    margin: 0;
 }
 
 .header {
     display: flex;
+    background-color: #1F2937;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -20,6 +22,7 @@ body {
 }
 
 .hero {
+    background-color: #1F2937;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
@@ -127,6 +130,61 @@ body {
     color: #1F2937;
     font-weight: bolder;
     text-align: right;
+}
+
+.four {
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.cta-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    border-radius: 8px;
+}
+
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.cta-heading {
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.cta-paragraph {
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    width: 100px;
+    height:32px;
+    border: 2px solid #E5E7EB;
+    border-radius: 8px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 ul {
